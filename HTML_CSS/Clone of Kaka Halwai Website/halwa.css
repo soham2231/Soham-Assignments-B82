@@ -1,0 +1,264 @@
+/* navbar */
+
+/* Base link */
+.nav-animate{
+    position: relative;
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+}
+
+/* Underline (hidden initially) */
+.nav-animate::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: #E45326;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.nav-animate:hover::after{
+    width: 100%;
+}
+
+/* Active link underline */
+.nav-animate.active::after{
+    width: 100%;
+}
+
+/* Optional color change */
+.nav-animate:hover{
+    color: #E45326;
+}
+.logo{
+    height: 130px;
+    width: 150px;
+}
+.navbar-nav{
+    display: flex;
+    gap:4rem;
+}
+.logo{
+    position: relative;
+    left: 200px;
+}
+
+/* order btn */
+#ordrbtn{
+  background: linear-gradient(to bottom, #f07470 0%, #ea4c46 100%);
+  color: white;
+  border: none;
+  border-radius: 6px; 
+  padding: 20px 25px;
+  font-size: 17px; 
+  display: flex;
+  justify-self: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* product sec */
+#heading{
+    justify-self: center;
+    padding: 30px;
+    color: #E45326;
+}
+.prdct{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.prdctimg{
+    height: 300px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.pedctname{
+    display: flex;
+    justify-self: center;
+}
+
+
+/* Read more sec */
+.readmore{
+    /* background-image: url(ass/barfi.png); */
+    background-color: #E45326;
+    color: white;
+    margin-top: 50px;
+    padding: 40px;
+}
+#rmbtn{
+  color: white;
+  border-width: 2px;
+  background: transparent;
+  border-color: white ;
+  border-radius: 40px;
+  padding: 10px 20px;
+  display: flex;
+  justify-self: center;
+  margin-top: 50px
+  
+}
+#headingrdmore{
+    justify-self: center;
+}
+.parardmore{
+    justify-self: center;
+}
+
+/* Product sec */
+
+.para{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* card sec */
+.cardsec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+#prdbtn{
+    background-color: #E45326;
+    width: 100%;
+    height: 100%;
+}
+
+/* Map sec */
+
+ .loca {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 50px;
+} 
+.city button{
+    background-color: #c78452;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+margin-left: 10px;    
+margin-bottom: 8px;
+padding: 10px 20px;
+border: none;
+color: white;
+    
+}
+.map{
+    width: 60%;
+}
+.city{
+    width: 40%; 
+}
+#location{
+    width: 100%;
+}
+
+/* Footer */
+.footouter{
+    background-color:#c78452;
+    padding:40px 0;
+}
+
+.footouter h4{
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.footouter ul{
+    padding-left:20px;
+        padding:0;
+        list-style: none;
+
+}
+
+.footouter a{
+    text-decoration:none;
+    color:white;
+}
+
+.footouter a:hover{
+    color:black;
+}
+
+/* about us ...........................................................................................................*/
+
+.about-banner{
+    background-color:#b77a45;
+    padding:40px 0;
+    color:white;
+}
+
+.about-title{
+    font-size:40px;
+    font-weight:bold;
+}
+
+.about-right{
+    position:relative;
+}
+
+.about-pattern{
+    width:120px;
+    opacity:0.8;
+}
+
+/* vision and miss */
+.vm-card{
+    border:2px solid #b77a45;
+    border-radius:15px;
+    padding:40px 20px;
+    background-color:#fff;
+    height:100%;
+    transition:0.3s;
+}
+
+
+
+.vm-icon{
+    width:40%;
+    margin-bottom:20px;
+}
+
+.vm-card h3{
+    margin-bottom:15px;
+}
+
+.vm-card p{
+    line-height:1.7;
+}
+
+/* Quality page ...........................................................................................................*/
+
+.quality{
+    padding:40px 0;
+}
+.quality h2{
+    color:#b77a45;
+}
+
+/* contact page ...........................................................................................................*/
+
+
+.contact-heading{
+    color:#b77a45;
+    font-weight:bold;
+}
+
+.submit-btn{
+    background-color:#b77a45;
+    color:white;
+    padding:10px 25px;
+    border:none;
+    border-radius:5px;
+}
+
+.submit-btn:hover{
+    background-color:#a56735;
+}
